@@ -53,11 +53,21 @@ body{
 
 .cualidades{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: center;
     gap: 2rem;
    
     
+}
+@media (max-width: 768px) {
+    .cualidades{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        gap: 2rem;
+       
+        
+    }
 }
 
 .perfil{
