@@ -7,7 +7,7 @@ body{
 /* Comienzo inicio */
 .presentacion{
     margin-top: -10px;
-    width: 100%;
+    width: 900%;
     height: 700px;
     background-image: url(../img/inicio.jpg);
     background-attachment: fixed;
@@ -16,7 +16,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(172, 164, 164);
     opacity: 0.8;
     text-shadow: 1px 1px grey;
 }
@@ -37,7 +37,7 @@ body{
 /* Comienzo acerca de */
 .descripcion{
     margin-top: 4rem;
-    color: #1f2123;
+    color: #7e7e7e;
     display: flex;
     flex-direction: column;
     justify-content: center;
